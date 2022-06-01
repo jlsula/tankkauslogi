@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.item_data {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.75rem;
+  font-size: 13px;
+}
+
+.item_amount,
+.item_priceLiter,
+.item_quantity {
+  text-align: right;
+}
+
+.item_supplier,
+.item_amount {
+  font-weight: bold;
+  color: #f50d0d;
+  font-size: 15px;
+}

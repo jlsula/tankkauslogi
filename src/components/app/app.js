@@ -1,9 +1,10 @@
-import "./App.scss";
+import styles from "./app.module.scss";
+import Items from "../items/items.js";
 
 function App() {
   return (
-    <div>
-      <h1>Tankkauslogi</h1>
+    <div className={styles.app}>
+      <Items />
     </div>
   );
 }
